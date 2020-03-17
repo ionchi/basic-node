@@ -15,6 +15,13 @@
   },
   "rules": {
     "no-console": "off",
+    "object-curly-spacing": ["error", "always"],
+    "keyword-spacing": ["error", 
+      { 
+        "before": true,
+        "after": true 
+      }
+    ],
     "indent": ["error", "tab"],
     "quotes": ["error", "single"],
     "semi": [2, "always"],
@@ -26,5 +33,6 @@
         "asyncArrow": "always"
       }
     ]
+  }
   }
 }
